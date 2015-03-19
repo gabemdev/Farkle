@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D98g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKO-Ta-I9J" customClass="DieLabel">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <color key="backgroundColor" red="0.23137254900000001" green="0.47843137250000001" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.79230737429999998" green="0.79230737429999998" blue="0.79230737429999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="150" y="267" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="DcN-cF-NhO" appends="YES" id="vAp-aL-aCY"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K7o-IH-gHQ" customClass="DieLabel">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <color key="backgroundColor" red="0.23137254900000001" green="0.47843137250000001" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.79230737429999998" green="0.79230737429999998" blue="0.79230737429999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="185" y="267" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="trR-JZ-QQu" appends="YES" id="cuK-Op-Ks5"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U98-sh-43Q" customClass="DieLabel">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <color key="backgroundColor" red="0.23137254900000001" green="0.47843137250000001" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.79230737429999998" green="0.79230737429999998" blue="0.79230737429999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="220" y="267" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Iia-uX-BWO" appends="YES" id="FP9-GW-e0D"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O3U-wk-9dt" customClass="DieLabel">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <color key="backgroundColor" red="0.23137254900000001" green="0.47843137250000001" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.79230737429999998" green="0.79230737429999998" blue="0.79230737429999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="150" y="302" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="IdD-NU-9JJ" appends="YES" id="Om2-4Z-Cl3"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DKo-fD-35b" customClass="DieLabel">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <color key="backgroundColor" red="0.23137254900000001" green="0.47843137250000001" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.79230737429999998" green="0.79230737429999998" blue="0.79230737429999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="185" y="302" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="yHu-8C-9l3" appends="YES" id="6R6-Id-35o"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4BK-RH-UKJ" customClass="DieLabel">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <color key="backgroundColor" red="0.23137254900000001" green="0.47843137250000001" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.79230737429999998" green="0.79230737429999998" blue="0.79230737429999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="220" y="302" width="30" height="30"/>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Csj-Qs-AfA" appends="YES" id="RXq-qE-VLk"/>
+                                </connections>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xH8-Sb-s8B">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.23137254900000001" green="0.47843137250000001" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="150" y="390" width="100" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onRollButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="bvs-ze-ztf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsf-CS-NEZ">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="554" width="120" height="21"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="ZKO-Ta-I9J"/>
+                                <exclude reference="K7o-IH-gHQ"/>
+                                <exclude reference="U98-sh-43Q"/>
+                                <exclude reference="O3U-wk-9dt"/>
+                                <exclude reference="DKo-fD-35b"/>
+                                <exclude reference="4BK-RH-UKJ"/>
+                                <exclude reference="xH8-Sb-s8B"/>
+                                <exclude reference="hsf-CS-NEZ"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="ZKO-Ta-I9J"/>
+                                <include reference="K7o-IH-gHQ"/>
+                                <include reference="U98-sh-43Q"/>
+                                <include reference="O3U-wk-9dt"/>
+                                <include reference="DKo-fD-35b"/>
+                                <include reference="4BK-RH-UKJ"/>
+                                <include reference="xH8-Sb-s8B"/>
+                                <include reference="hsf-CS-NEZ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="userScore" destination="hsf-CS-NEZ" id="9e7-ct-3hn"/>
+                        <outletCollection property="labels" destination="ZKO-Ta-I9J" id="oLt-TC-WTH"/>
+                        <outletCollection property="labels" destination="K7o-IH-gHQ" id="F1M-a3-kOE"/>
+                        <outletCollection property="labels" destination="U98-sh-43Q" id="aB9-2t-Hx2"/>
+                        <outletCollection property="labels" destination="O3U-wk-9dt" id="dah-gB-Fzm"/>
+                        <outletCollection property="labels" destination="DKo-fD-35b" id="GrW-dm-4FK"/>
+                        <outletCollection property="labels" destination="4BK-RH-UKJ" id="zog-5t-OtK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Csj-Qs-AfA" userLabel="(6)Tap Gesture Recognizer">
+                    <connections>
+                        <action selector="onTapped:" destination="4BK-RH-UKJ" id="Zo9-gY-dmt"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="yHu-8C-9l3" userLabel="(5)Tap Gesture Recognizer">
+                    <connections>
+                        <action selector="onTapped:" destination="DKo-fD-35b" id="V4C-eJ-zsX"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="IdD-NU-9JJ" userLabel="(4)Tap Gesture Recognizer">
+                    <connections>
+                        <action selector="onTapped:" destination="O3U-wk-9dt" id="lAo-Z1-rwd"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Iia-uX-BWO" userLabel="(3)Tap Gesture Recognizer">
+                    <connections>
+                        <action selector="onTapped:" destination="U98-sh-43Q" id="iXG-iV-bI9"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="trR-JZ-QQu" userLabel="(2)Tap Gesture Recognizer">
+                    <connections>
+                        <action selector="onTapped:" destination="K7o-IH-gHQ" id="VRI-AD-d2f"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="DcN-cF-NhO" userLabel="(1)Tap Gesture Recognizer">
+                    <connections>
+                        <action selector="onTapped:" destination="ZKO-Ta-I9J" id="GHp-7i-UNt"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+</document>
